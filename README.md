@@ -30,6 +30,12 @@ copy all for php 7.4 https://github.com/astral3693/skinplayersweb/blob/main/php-
 	 edit or creat C:\Apache24\conf\httpd.conf
 copy all for php 7.4 https://github.com/astral3693/skinplayersweb/blob/main/Apache24/conf/httpd.conf
 
+;extension_dir = "./"
+; On windows:
+;extension_dir = "ext"
+;extension_dir = "C:\php-8.4.11\ext"
+extension_dir = "C:\\php-8.4.11\\ext"
+
 C:\Apache24\bin\httpd.exe -k install
 
 
